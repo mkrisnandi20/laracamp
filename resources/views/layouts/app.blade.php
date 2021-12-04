@@ -20,6 +20,7 @@
 <body>
 
     @include('component.navbar')
+    {{-- @include('layouts.navigation') untuk logout manual --}}
 
     @yield('content')
 
